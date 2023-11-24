@@ -1,0 +1,6 @@
+Theorem : 
+Let G act on a nonempty set X. The following conditions are equivalent: 
+(1) the action of G on X is transitive,
+(2) for some x ∈ X, every element of X has the form gx for some g ∈ G,
+(3) for all x ∈ X, every element of X has the form gx for some g ∈ G.
+

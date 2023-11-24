@@ -1,0 +1,4 @@
+Definition (Centralizer):
+The centralizer of a ∈ G is the set
+ 		     C(a) = {x ∈ G : ax = xa}
+

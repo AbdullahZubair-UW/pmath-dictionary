@@ -1,0 +1,5 @@
+Definition (Conjugacy Class):
+For a,b ∈ G, a is conjugate to b if ∃ x ∈ G, b = xax^-1 .
+The conjugacy class of a ∈  G is 
+ 		     Cl(a) = {xax^-1: x ∈  G}
+

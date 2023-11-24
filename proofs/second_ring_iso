@@ -1,0 +1,38 @@
+Proof of The Second Ring Isomorphism Theorem: 
+Claim 1 : The map β : A → (A + B) given by β(a) = a is a ring homomorphism. 
+Proof: Clearly the map is well defined since for all a ∈ A, β(a) = a ∈ (A + B). Next let  x,y ∈ A.
+Then β(x + y) = (x + y) = β(x) + β(y). Furthermore,  β(x · y) = x · y = β(x)β(y). Finally, note that
+for 1 ∈ A, β(1) = 1 so the multiplicative identity in  A is the same as A + B. \end{proof}
+
+Claim 2: Let R be a ring and I be an ideal of R, then there exists a ring homomorphism φ : R → R / I, given by φ(r) = r + I. 
+Proof: Clearly φ is well defined since for all r ∈ R, φ(r) = r + I ∈ R / I. We note that since I is
+an ideal, we can implement the standard operations of addition and multiplication defined on ideals
+of rings. Next let r, r' ∈ R, then 
+
+			φ(r + r') = r + r' + I = r + I + (r' + I) = φ(r) + φ(r')
+
+Furthermore, we deduce that
+
+			φ(r · r') = (rr') + I = (r + I)(r' + I) = φ(r) · φ(r')
+
+And finally, φ(1_R) = 1_R + I which is the multiplicative identity on  R / I.
+
+Claim 2: Let φ : (A + B) → (A + B) / B. Then the map φ = φ ∘ β : A → (A + B) / B is a ring homomorphism. 
+Proof: From Claim (2) we conclude that since A + B is a ring (a subring is a ring) and B is an ideal
+on (A + B), we have that φ : (A + B) → (A + B) / B is a ring homomorphism. Then φ is a also a ring
+homomorphism since a composition of ring homomorphisms is again a homomorphism.
+	
+Claim 3: The map φ is surjective, that is φ(A) = (A + B) / B. 
+Proof: Let (a + b) + B ∈ (A + B) / B for some a ∈ A and b ∈ B. Since B is an ideal, it follows that
+it is a additive subgroup by defintion and hence closed under addition. This would imply that (a +
+b) + B = a + B. Hence, we choose  a ∈ A to construct the map φ(a) = φ(β(a))  = φ(a) = a + B
+						
+Claim 4 : The kernel of the map φ is given by ker φ = A ∩ B. 
+Proof: Let x ∈ ker φ where x ∈ A. Then φ(x) = 0 + B = x + B so that x + B = B. This would imply that
+x ∈ B, by equalities on left cosets, hence x ∈ A ∩ B. Next let y ∈ A ∩ B. Then  φ(y) = y + B,
+however since  y ∈ B we have that φ(y) = B.
+
+We now prove that the isomorphism holds. By the first ring isomorphism theorem, we have that A / K ≅
+φ(A), where  K = ker φ. By Claim 4, we have that φ(A) = (A + B) / B. By Claim (5), we have that ker
+φ = A ∩ B, hence A / (A ∩ B) ≅ (A + B) / B
+

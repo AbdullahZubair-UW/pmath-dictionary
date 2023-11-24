@@ -1,0 +1,6 @@
+Definition (group):
+A group is a set G with a binary operation * and an element e ∈ G such that:
+(1) For all a,b,c ∈ G, a * (b * c) = (a * b) * c
+(2) For all a ∈ G, a * e = e * a = a
+(1) For all a ∈ G, there exists b ∈ G such that a * b = b * a = e
+

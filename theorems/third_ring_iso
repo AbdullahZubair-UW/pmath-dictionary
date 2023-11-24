@@ -1,0 +1,4 @@
+The Third Ring Isomorphism Theorem:
+Let J and K be ideals in a ring R such that J ⊂ K. Then
+(1) 𝐾 / 𝐽 is an ideal of 𝑅 / 𝐽.
+(2) (𝑅/𝐽) / (𝐾/𝐽) ≅ 𝑅 / 𝐾

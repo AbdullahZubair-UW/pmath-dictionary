@@ -1,0 +1,3 @@
+Definition (faithful):
+A group action on a set X is faithful if 
+			∀ g,h ∈ G, g ≠ h, ∃ x ∈ X, g · x ≠ h · x
