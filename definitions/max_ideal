@@ -1,0 +1,4 @@
+Definition (Maximal Ideal):
+Let R be a CR. An ideal 𝔪 ⊂ R is maximal if 𝔪  ≠ (1) and there is no ideal 𝔪 ⊂ 𝔞 ⊂ (1). 
+Equivalently, An ideal 𝔪 ⊂ R is maximal if 𝔪  ≠ (1) and for all ideals 𝔪 ⊆ 𝔞, we have that 𝔞 = R or 𝔪  = 𝔞.
+

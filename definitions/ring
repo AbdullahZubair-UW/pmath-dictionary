@@ -1,3 +1,9 @@
 Definition (ring):
-A ring is a abelian group R such that 
+A ring is a abelian group R with an operation * and an element 1 such that
+(1) 1 is a multiplicative identity : 1*a = a*1 = a, ∀ a ∈ R.
+(2) * is associative : ∀ a,b,c ∈ R, (a*b)*c = a*(b*c).
+(3) * is both left and right distributive: ∀ a,b,c ∈ R
+		a*(b + c) = a*b + a*c
+		(b+c)*a = b*a + c*a
+
 
