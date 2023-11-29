@@ -1,0 +1,5 @@
+Theorem [Characterization of group actions]:
+	Given a group action of G on a set X, let π_g : X → X be the map given by π_g(x) = g · x. Then
+		(1) For each g ∈ G, π_g is a permutation of X.
+		(2) The map ρ : G → Perm(X)  given by ρ(g) = π_g is a group homomorphism. 
+

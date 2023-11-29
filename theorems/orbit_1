@@ -1,0 +1,6 @@
+Theorem (Orbits Partition X)
+Let G act on a set X. Then the orbits of the action partition the set X. That is,
+(1) ∀ x ∈ X, Orb(x) is nonempty.
+(2) ∀ x,y ∈ X, if Orb(x) ≠ Orb(y) then Orb(x) and Orb(y) are disjoint.
+(3) ∀ x ∈ X, x ∈ Orb(x).
+
