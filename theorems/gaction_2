@@ -1,0 +1,3 @@
+Corollary (Characterization of group actions): 
+Let a group G act on a set X. If x ∈ X, g ∈ G and y = g  · x, then x = g^{-1} · y. If x ≠ x' then g · x ≠ g · x'.
+

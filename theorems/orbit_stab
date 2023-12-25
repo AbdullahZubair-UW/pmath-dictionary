@@ -1,0 +1,5 @@
+Theorem (Orbit-Stabilizer)
+Let G act on a set X. Then for all x ∈ X we have that 
+
+		|G| = |Orb(x)| · |Stab(x)|
+

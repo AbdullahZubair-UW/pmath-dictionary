@@ -1,0 +1,4 @@
+A basis for a topology on a set X is a set B of subsets of X such that
+(1) X = ⋃ B
+(2) For all U,V ∈ B and a ∈ U ∩ V, ∃ W ∈ B with a ∈ W ⊆ U ∩ V. 
+

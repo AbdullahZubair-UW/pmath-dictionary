@@ -1,3 +1,5 @@
 The First Isomorphism Theorem:
 Let φ : R → S be a ring homomorphism. Let K = ker(φ). Then K is an ideal in R and 
+
 		R / K ≅ φ(S)
+

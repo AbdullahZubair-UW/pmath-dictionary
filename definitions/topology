@@ -1,0 +1,9 @@
+A Topology of a set X is a set T of subsets of X such that  
+	(1) ∅, X ∈ T.  
+	(2) For any subset S ⊆ T, ⋃ S ∈ T.
+	(3) For a finite subset S ⊆ T, ⋂ S ∈ T.
+  
+A set X with a topology T is called a topological space. 
+
+When X is a topological space, a set A ⊆ X is called open in X if  A ∈ T. We call A closed in X if X\A is open in X. 
+

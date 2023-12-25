@@ -1,3 +1,5 @@
 The Second Ring Isomorphism Theorem:
 Let A and B be ideals in a ring R. Then A is an ideal in A + B, A ∩ B is an ideal in B and
+
 	                 (A + B)/A ≅ B/(A ∩ B)
+

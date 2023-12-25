@@ -1,0 +1,17 @@
+Proof of The Oribt-Stabilizer Theorem:
+Let x ∈ X. We wish to show that the size of the quotient group G/Stab(x) is
+equal to the size of the orbit Orb(x). Let f:G/Stab(x)→Orb(x) be
+the map defined by f(gStab(x))=g⋅x, where g⋅x is the action of g on x.
+To show that this map is well-defined, we must demonstrate that the image of any coset in
+G/Stab(x) under f doesn't depend on our choice of the representative. Indeed,
+suppose that g′Stab(x)=gStab(x) for some g,g′∈ G. This implies that
+g^−1g′ ∈ Stab(x), which in turn implies that (g^−1g′)⋅x=x(g^−1g′)⋅x=x, leading to
+g′⋅x=g⋅x. Consequently, f(g′Stab(x))=f(gStab(x)), confirming that ff is well-defined.
+
+Now, we show that f is bijective. To establish injectivity, suppose that
+f(aStab(x))=f(bStab(x)) for some a,b∈ G. This implies that
+a⋅x=b⋅x, so (a^−1b)⋅x=x. However, this means that
+a^−1b ∈ Stab(x), leading to aStab(x)=bStab(x). Finally, to show
+surjectivity, let g⋅x∈ Orb(x) for some g∈ G. Choose
+gStab(x)∈G/Stab(x), so that f(gStab(x))=g⋅x.
+

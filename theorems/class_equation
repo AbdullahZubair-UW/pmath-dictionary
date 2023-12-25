@@ -1,0 +1,9 @@
+Theorem (The Class Equation)
+Let G be a finite group. Suppose G acts on itself by conjugation. Let x_1,...,x_k be the distinct representatives for the action
+that are not contained in Z(G). Then
+
+		|G| = |Z(G)| + ∑ [G : C(x_i)]
+
+where the sum is over 1 ≤ i ≤ k.
+
+
