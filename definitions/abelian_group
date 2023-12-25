@@ -1,0 +1,3 @@
+Definition (Abelian group):
+A group G is abelian if g * h = h * g for all g,h in G.
+

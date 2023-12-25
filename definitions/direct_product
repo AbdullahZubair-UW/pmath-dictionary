@@ -1,0 +1,5 @@
+Definition (Direct Product):
+The direct product of two groups G and H, denoted G x H, is the cartesian product of the 
+underlying sets of G and H, equipped with a component-wise defined binary
+operation (g_1, h_1) ⋅ (g_2, h_2) = (g_1 ⋅ g_2, h_1 ⋅ h_2). With this operation, G x H itself forms a group.
+

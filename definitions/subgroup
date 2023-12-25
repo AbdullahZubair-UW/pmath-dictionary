@@ -1,0 +1,5 @@
+Definition (Subgroup):
+Let G be a group and H ⊆ G. H is a subgroup of G iff 
+ (1) H ≠ ∅ 
+	(2) ∀ x,y ∈ H, xy^(-1) ∈ H
+
