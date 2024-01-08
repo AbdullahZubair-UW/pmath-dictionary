@@ -1,0 +1,6 @@
+Definition (Dihedral Group):
+The dihedral group D_n is given by 
+
+D_n = {1,r,r^2,...,r^(n-1), s,sr,sr^2,...,sr^(n-1)}
+	= <r,s | r^n, s^2, rsrs>
+
