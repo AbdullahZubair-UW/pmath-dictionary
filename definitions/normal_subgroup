@@ -1,0 +1,6 @@
+Definition (Normal Subgroup):
+Let G be a group and H ≤ G. Then H ⊲ in G iff one of the following holds
+(1) ∀ g ∈ G, h ∈ H, ghg^(-1) ∈ H.
+(2) ∀ g ∈ G, gHg^(-1) = H
+(3) ∀ g ∈ G, gH = Hg
+

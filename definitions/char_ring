@@ -1,0 +1,4 @@
+Definition (Characteristic of a ring):
+The characteristic of a ring is the smallest positive integer n satisfying nx = 0 
+for all elements x of the ring, if such an n exists. Otherwise, the characteristic
+is 0.
